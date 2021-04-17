@@ -18,6 +18,8 @@ export default function Home() {
       <Head>
         <title>Netflix Clone App</title>
         <link rel="icon" href="/favicon.ico" />
+         <link rel="preconnect" href="https://fonts.gstatic.com"/>
+         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
       </Head>
        <header className="flex justify-between w-full px-12 py-8">
           <div>
@@ -51,9 +53,9 @@ export default function Home() {
           </div>
        </header>
       <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
-        
 
-         <h1 className="text-5xl font-bold text-white my-4 max-w-lg">Unlimited movies, TV shows, and more.</h1>
+
+         <h1 className="text-5xl font-bold text-white my-4 max-w-lg tracking-wide">Unlimited movies, TV shows, and more.</h1>
          <h6 className='text-2xl text-white mt-4 mb-8'>Watch anywhere. Cancel anytime.</h6>
          <p className='text-white'>
             Ready to watch? Enter your email to create or restart your membership.
